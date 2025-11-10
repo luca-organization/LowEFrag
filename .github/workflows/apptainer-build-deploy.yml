@@ -8,7 +8,7 @@ on:
 
 jobs:
   build-test-container:
-    runs-on: ubuntu-latest
+    runs-on: geant-gha-runner
     permissions:
       contents: read
       packages: write
