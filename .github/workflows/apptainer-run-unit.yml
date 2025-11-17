@@ -1,6 +1,7 @@
 name: Container unit test
 
 on:
+  workflow_dispatch:
   workflow_run:
     workflows: ["Apptainer Build and Deploy"]
     types:
